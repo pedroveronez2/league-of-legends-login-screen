@@ -1,3 +1,15 @@
+function login_in() {
+  const div_content = document.getElementById('content')
+  div_content.style.display = 'none'
+
+  document.querySelector('.lds-spinner').style.display = 'inline-block'
+  document.querySelector('.login__button').style.display = 'none'
+}
+
+function close_tap() {
+  window.close()
+}
+
 const inputs = document.querySelectorAll('.input');
 const button = document.querySelector('.login__button');
 
