@@ -341,3 +341,13 @@ main {
 .content {
   width: 100%;
 }
+
+@media screen and (max-width: 480px;) {
+  .wallpaper {
+    display: none; 
+  }
+  .login {
+    margin: auto;
+    max-width: none;
+  }
+}
